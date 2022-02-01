@@ -1,0 +1,154 @@
+.soc {
+  text-decoration: none;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 3;
+}
+
+.soc-p {
+  color: white;
+  position: relative;
+  left: -10px;
+  font-family: "Lato";
+  margin-bottom: 0%;
+  margin-left: 10%;
+}
+
+#sidebar {
+  height: 250px;
+  width: 10px;
+  position: fixed;
+  text-align: center;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10%;
+}
+
+.soc-p i {
+  left: 30px;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 24px;
+}
+
+.social {
+  margin-left: -200px;
+  width: 230px;
+  padding: 0;
+  display: inline-table;
+  height: 0px;
+  -moz-transition-property: margin-left;
+  -moz-transition-duration: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -ms-transition-property: margin-left;
+  -ms-transition-duration: 0.2s;
+  -ms-transition-delay: 0.2s;
+  -o-transition-property: margin-left;
+  -o-transition-duration: 0.2s;
+  -o-transition-delay: 0.2s;
+  -webkit-transition-property: margin-left;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-delay: 0.2s;
+  box-shadow: 0px 0px 6px 0px #3e3d3d;
+  cursor: pointer;
+}
+
+.social:hover {
+  margin-left: -30px;
+  width: 230px;
+  /* background-color: #3b5998; */
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #4099ff;
+}
+
+.google {
+  background-color: #2dcf48;
+}
+
+.linkedin p i {
+  left: 20px;
+}
+
+.google p i {
+  left: 22px;
+}
+
+.youtube p i {
+  left: 20px;
+}
+
+.youtube {
+  background-color: rgb(226, 23, 101);
+}
+
+.linkedin {
+  background-color: #0976b4;
+}
+
+#sidebar {
+  top: 100px;
+}
+
+.cspt-footer-widget {
+  padding-right: 15px;
+  margin-right: 50px;
+}
+
+.cspt-footer-widget-col-1 {
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+  .cspt-footer-widget-col-1 {
+    padding-right: 0px!important;
+    margin-left: 0px;
+  }
+  #sidebar {
+    top: 270px;
+  }
+  .cspt-footer-widget {
+    padding-right: 15px;
+    margin-right: 50px;
+  }
+  @media screen and (max-width: 1200px) {
+    .cspt-footer-widget-col-1 {
+      padding-right: 0px !important;
+    }
+    #sidebar {
+      top: 270px;
+    }
+    .cspt-footer-widget {
+      padding-right: 15px;
+      margin-right: 0px;
+    }
+    .footer-wrap {
+      padding-right: 15px;
+      padding-left: 20px;
+    }
+    .about{
+      position:relative;
+      left:200px;
+    }
+    .owl-carousel .owl-stage-outer{
+      height: 650px;
+    }
+    .owl-dots{
+      left: 30px!important;
+      right: 60px!important;
+    }
+  }
+
+  .cspt-base-icon-menu {
+    color: black;
+  }
+
+ 
+
+  
